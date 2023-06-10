@@ -10,7 +10,7 @@ with open('cats.json', 'r') as file:
     rubricator_data = json.load(file)
 
 # Создание объектов бота и диспетчера
-bot = Bot(token='6178296096:AAE6Rn_8B7mLb9_8L43OIBWR4l3xROjPcMU')
+bot = Bot(token='@kus_ker')
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 
